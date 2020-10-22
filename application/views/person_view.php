@@ -71,11 +71,11 @@ var save_method; //for save method string
 var table;
 var base_url = '<?php echo base_url();?>';
 
-
+/*
 function ajax_velocidad() {
     
 	$.ajax({
-		url: "<?php echo base_url('index.php/person/paginacion_img')?>",
+		url: "<?php // echo base_url('index.php/person/paginacion_img')?>",
 		type: 'POST',
 		dataType: 'json',
 		success: function(data){
@@ -97,6 +97,8 @@ function ajax_velocidad() {
 	});
 }
 ajax_velocidad();
+
+*/
 
 $(document).ready(function() {
 
